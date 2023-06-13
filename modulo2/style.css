@@ -1,4 +1,4 @@
-div {
+.textop {
     background-color: aqua;
     padding-left: 600px;
     padding-top: 25px;
@@ -20,4 +20,10 @@ button {
     padding-left: 15px;
     padding-top: 10px;
     padding-right: 15px;
+}
+.link1:hover {
+    color: blue;
+}
+hr {
+    width: auto;
 }

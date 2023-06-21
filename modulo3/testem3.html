@@ -2,33 +2,39 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Pagina de teste</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>tabela de teste/pagina de teste</h1>
-
-    <table width="350" border="1">
-        <thead>
+    <form method="post" action="blablabla.php" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="JP" />
         
-            <tr>
-            <th>item 1</th>
-            <th>item 2</th>
-        </tr>
-        <tbody>
-        </thead>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        </tbody>
-    </table>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br/>
+                <input type="text" name="name" />
+            </label><br/>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="lastname" />
+            </label><br/>
+            <label>
+                Foto:<br/>
+                <input type="file" name="photo"  accept="image/*"/>
+            </label><br/>
+        </fieldset>
 
-        <p>bla alalalallala</p>
-
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br/>
+                <input type="text" name="companyname" />
+             </label><br/>
+             <label>
+                Cargo na empresa:<br/>
+                <input type="text" name="companyjobtitle" />
+             </label><br/>
+        </fieldset>
 </body>
-</html>

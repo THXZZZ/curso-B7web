@@ -5,12 +5,6 @@ body {
     margin: 50px;
     font-size: 17px;
 }
-p {
-    color: aqua;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 table {
     width: 680px;
 }
